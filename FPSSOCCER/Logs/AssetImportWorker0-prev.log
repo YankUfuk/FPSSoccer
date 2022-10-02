@@ -1,0 +1,370 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16305 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/yanku/OneDrive/Masaüstü/Coding/UnityProjects/FPSSoccer/FPSSoccer/FPSSOCCER
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50181
+Successfully changed project path to: C:/Users/yanku/OneDrive/Masaüstü/Coding/UnityProjects/FPSSoccer/FPSSoccer/FPSSOCCER
+C:/Users/yanku/OneDrive/Masaüstü/Coding/UnityProjects/FPSSoccer/FPSSoccer/FPSSOCCER
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 71.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/yanku/OneDrive/Masaüstü/Coding/UnityProjects/FPSSoccer/FPSSoccer/FPSSOCCER/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12142 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006396 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Domain Reload Profiling:
+	ReloadAssembly (531ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (372ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (219ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004806 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yanku\OneDrive\Masaüstü\Coding\UnityProjects\FPSSoccer\FPSSoccer\FPSSOCCER\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yanku\OneDrive\Masaüstü\Coding\UnityProjects\FPSSoccer\FPSSoccer\FPSSOCCER\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Domain Reload Profiling:
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (325ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3360 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (112.1 KB). Loaded Objects now: 3817.
+Memory consumption went from 116.7 MB to 116.6 MB.
+Total: 2.521100 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.204300 ms MarkObjects: 1.989300 ms  DeleteObjects: 0.078000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 158353.169844 seconds.
+  path: Assets/SIGNAL+IDUNA+PARK.skp
+  artifactKey: Guid(00b082c6924ce1e4498289c1155725df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SIGNAL+IDUNA+PARK.skp using Guid(00b082c6924ce1e4498289c1155725df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1056a51bbe08367c2d37f3cefa87c9') in 0.025439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.553730 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.005871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.176942 seconds.
+  path: Assets/3DModels
+  artifactKey: Guid(fa147525a909a044abafb119e1b4b791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels using Guid(fa147525a909a044abafb119e1b4b791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2341c9bda06e72e126c64fcec159fcbd') in 0.005185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.921619 seconds.
+  path: Assets/3DModels/Signal_Iduna_Park.obj
+  artifactKey: Guid(37f0b17b850e33545b92b3b076d105a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Signal_Iduna_Park.obj using Guid(37f0b17b850e33545b92b3b076d105a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f39ed1a7114505adb2983c43a0bbf5b') in 0.326553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 757.528339 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.005103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.464648 seconds.
+  path: Assets/Scenes/Signal_Iduna_Park.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Signal_Iduna_Park.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371fe22cc3288ad87952c65d5dd95f09') in 0.005280 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037038 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\yanku\OneDrive\Masaüstü\Coding\UnityProjects\FPSSoccer\FPSSoccer\FPSSOCCER\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\yanku\OneDrive\Masaüstü\Coding\UnityProjects\FPSSoccer\FPSSoccer\FPSSOCCER\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.121 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4121ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (3893ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Simple Lit': fallback shader 'Universal Render Pipeline/Particles/Unlit' not found
+Shader 'Universal Render Pipeline/Nature/SpeedTree7': dependency 'BillboardShader' shader 'Universal Render Pipeline/Nature/SpeedTree7 Billboard' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Universal Render Pipeline/Unlit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/StencilDeferred': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Universal Render Pipeline/Simple Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 99 unused Assets / (6.3 MB). Loaded Objects now: 5505.
+Memory consumption went from 198.2 MB to 192.0 MB.
+Total: 6.241700 ms (FindLiveObjects: 0.363400 ms CreateObjectMapping: 0.315800 ms MarkObjects: 3.361800 ms  DeleteObjects: 2.200000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 299.900051 seconds.
+  path: Assets/3DModels/Signal_Iduna_Park.obj
+  artifactKey: Guid(37f0b17b850e33545b92b3b076d105a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Signal_Iduna_Park.obj using Guid(37f0b17b850e33545b92b3b076d105a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07023d5694e7f8bdfc970757a7a35e7') in 0.097795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 339.592552 seconds.
+  path: Assets/3DModels/Signal_Iduna_Park_Blend.blend1
+  artifactKey: Guid(701b3cff1a8119541b6656749de54aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Signal_Iduna_Park_Blend.blend1 using Guid(701b3cff1a8119541b6656749de54aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fbf4612168860d2a1ffd9eabf16355') in 0.006775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.304592 seconds.
+  path: Assets/3DModels/Signal_Iduna_Park_Blend.blend
+  artifactKey: Guid(e51dceab72e2749488fc78bb94eeda37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Signal_Iduna_Park_Blend.blend using Guid(e51dceab72e2749488fc78bb94eeda37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d42a58854d7b581750db09a798cddc') in 38.055266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 76.581857 seconds.
+  path: Assets/3DModels/Materials
+  artifactKey: Guid(469d80d69508ae64295d4c9877170d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials using Guid(469d80d69508ae64295d4c9877170d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c32b0e3dfa192420d4fd8c2237e9f6') in 0.005453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.075229 seconds.
+  path: Assets/3DModels/Materials/a a stand.jpg
+  artifactKey: Guid(cf91aba14c0f5854997891bd2472d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/a a stand.jpg using Guid(cf91aba14c0f5854997891bd2472d879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e5addec494030ab193e7a9be2801e5') in 0.070737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3DModels/Materials/stadium chair.jpg
+  artifactKey: Guid(76576dc51ec38d343a030a3f10ea6296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/stadium chair.jpg using Guid(76576dc51ec38d343a030a3f10ea6296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6b11058a6f4dbe334d1e667dd049bb') in 0.017853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3DModels/Materials/GEI4C30.jpg
+  artifactKey: Guid(8727483763bfc424ab788e2c31bd8ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/GEI4C30.jpg using Guid(8727483763bfc424ab788e2c31bd8ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59991a53cd46d780919433b6cdaab603') in 0.022856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3DModels/Materials/bluedrs.bmp
+  artifactKey: Guid(a0063ba58240f364bbc2dbd07d151c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/bluedrs.bmp using Guid(a0063ba58240f364bbc2dbd07d151c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99cdfc616d0cd8fe36d2a6cd5dfef4b') in 0.018726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3DModels/Materials/steps`.jpg
+  artifactKey: Guid(c5a89b9cba2d1bf41b38b4bd910548c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/steps`.jpg using Guid(c5a89b9cba2d1bf41b38b4bd910548c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0741248512055a6d8305e58a7c9b81bd') in 0.026272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3DModels/Materials/Net Normal Yellow.png
+  artifactKey: Guid(4d4fcd71d906f894caa816d1cd53d90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/Net Normal Yellow.png using Guid(4d4fcd71d906f894caa816d1cd53d90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e6fd3d5b9eaae4eea2dbe193d9ad3c') in 0.017255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3DModels/Materials/rail2.png
+  artifactKey: Guid(4d8b25082c0eaa34897f78946f58cc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/rail2.png using Guid(4d8b25082c0eaa34897f78946f58cc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9435e6e57b3f1d1ef4b2effb186cdd42') in 0.015468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3DModels/Materials/vcfcuadrado2.jpg
+  artifactKey: Guid(7e6cf98be0c11b0459977804e5c41ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/vcfcuadrado2.jpg using Guid(7e6cf98be0c11b0459977804e5c41ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba41eac17826080f849abaf018a421ff') in 0.015667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3DModels/Materials/terraing.jpg
+  artifactKey: Guid(2ba573b95576e0e4c90d122acc13b38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/terraing.jpg using Guid(2ba573b95576e0e4c90d122acc13b38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb657d1562f6c1fefc70d86cfedd20e') in 0.021144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3DModels/Materials/Tivoli_Innsbruck_088.png
+  artifactKey: Guid(3502044054adea747969911653bb82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/Tivoli_Innsbruck_088.png using Guid(3502044054adea747969911653bb82d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd1f88d297bfe4380e869566eb7c3be') in 0.015031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3DModels/Materials/Blinds_Roman_Hobbled_Blue.jpg
+  artifactKey: Guid(966f8fd5b4a99c0438bc657c0846ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/Blinds_Roman_Hobbled_Blue.jpg using Guid(966f8fd5b4a99c0438bc657c0846ad03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d24b622dffebce08a175ade13ae97e') in 0.016457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/3DModels/Materials/pib_008.png
+  artifactKey: Guid(d925e8e2b3b3fe443b2e088fd79be4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/pib_008.png using Guid(d925e8e2b3b3fe443b2e088fd79be4c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70ab0e9e62b394092e510b3d9575e7e') in 0.015509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3DModels/Materials/Boston convention center_44.jpg
+  artifactKey: Guid(829a6c10e2800ed48841bb2b2e311a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3DModels/Materials/Boston convention center_44.jpg using Guid(829a6c10e2800ed48841bb2b2e311a2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c4ab0605fa04e50a2d4dd2936a059a') in 0.017387 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
